@@ -7,8 +7,12 @@ class mother(father):
         def fun1(self):
             super().fun(self)
             print('this is three print')
-maj=mother()
-maj.fun()           
+ class son(father,mother):
+    def maja(self):
+        print("this new updated for github")
+            
+maj=son()
+maj.maja()           
 
                 
 
