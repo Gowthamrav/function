@@ -11,8 +11,10 @@ class mother(father):
         def fun1(self):
             super().fun(self)
             print('this is three print')
+
 maj=father2()
 maj.super()           
+
 
                 
 
